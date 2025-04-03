@@ -7,11 +7,11 @@
 /* Style the buttons */
 .button {
 
-  	color: var(--buttons_text_colour);
-  	background-color: var(--buttons_background_color); 
+  	color: var(--buttons_text_colour); white
+  	background-color: var(--buttons_background_color); black
 
 	border-width:var(--border-width);
-	border-color: var(--accent_color);
+	border-color: var(--accent_color); blue
 	border-style:var(--border-style);
 	border-radius: var(--corner_rounding);
 
@@ -20,7 +20,7 @@
 
   	display: inline-block;
 
-  	font-size: 20px;
+  	font-size: 40px;
 	
 	padding-right: 30px;
 	padding-left: 30px;
@@ -30,8 +30,8 @@
 
 
 .button:hover  {
-	  color:var(--hover_text_colour); 
-	  background-color:var(--hover_background_color); 
+	  color:var(--hover_text_colour); black
+	  background-color:var(--hover_background_color); yellow
 	
 }
 
